@@ -1,0 +1,5 @@
+export const TITLE = "Oops! Something Went Wrong"
+export const SUBTITLE1 = "Sorry! We can't find the page you're looking for."
+export const SUBTITLE2 = "Please check back later for updates."
+export const BUTTON = "GO TO HOME"
+export const ERROR_TEXT = "Error 404 - Page Not Found"

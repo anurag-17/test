@@ -1,0 +1,5 @@
+export const SEARCH_HEADER = 'Search for Talent or Crew Member.'
+export const SEARCH_BODY = 'Search our database to find the right talents for your projects. Discover new talents. Book them with ease. You can get in touch and let us know if there is something extra you require.'
+export const TALENT_COUNT = 'Talent / Crew Members Found.'
+export const TALENT_REVIEW = 'Review the profiles below.'
+export const VIEW_DETAILS = 'View Details.'

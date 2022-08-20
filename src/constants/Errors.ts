@@ -1,0 +1,1 @@
+export const ERROR_DEFAULT = "Something Went Wrong"

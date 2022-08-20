@@ -1,0 +1,33 @@
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { RecoilRoot } from "recoil";
+import "react-toastify/dist/ReactToastify.css";
+import 'react-phone-number-input/style.css'
+import { QueryClient, QueryClientProvider } from "react-query";
+import { ThemeProvider } from "styled-components";
+import { GlobalStyle, theme } from "./lib/StyledComponents/themes";
+import { StyledToastContainer } from "./utils/styledToastify";
+
+const queryClient = new QueryClient();
+
+ReactDOM.render(
+  <React.StrictMode>
+    <QueryClientProvider client={queryClient}>
+      <RecoilRoot>
+        <ThemeProvider theme={theme}>
+          <GlobalStyle />
+          <StyledToastContainer />
+          <App />
+        </ThemeProvider>
+      </RecoilRoot>
+    </QueryClientProvider>
+  </React.StrictMode>,
+  document.getElementById("root")
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();

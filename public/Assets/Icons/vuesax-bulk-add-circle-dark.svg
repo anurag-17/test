@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="vuesax_bulk_add-circle" data-name="vuesax/bulk/add-circle" transform="translate(-108 -252)">
+    <g id="add-circle" transform="translate(108 252)">
+      <path id="Vector" d="M50,25A25,25,0,1,1,25,0,25,25,0,0,1,50,25Z" transform="translate(5 5)" fill="#adb5bd" opacity="0.4"/>
+      <path id="Vector-2" data-name="Vector" d="M21.875,10H13.75V1.875a1.875,1.875,0,1,0-3.75,0V10H1.875a1.875,1.875,0,1,0,0,3.75H10v8.125a1.875,1.875,0,1,0,3.75,0V13.75h8.125a1.875,1.875,0,1,0,0-3.75Z" transform="translate(18.125 18.125)" fill="#adb5bd"/>
+      <path id="Vector-3" data-name="Vector" d="M0,0H60V60H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>
